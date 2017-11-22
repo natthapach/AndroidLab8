@@ -9,10 +9,14 @@
         android:layout_height="wrap_content">
         <TextView
             android:text="nickname :"
+            android:textColor="#ffff0000"
+            android:textSize="15sp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
         <TextView
             android:id="@+id/tv_nickname"
+            android:textColor="#ffff0000"
+            android:textSize="15sp"
             android:text="NICK NAME"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
@@ -23,11 +27,15 @@
         android:layout_height="wrap_content">
         <TextView
             android:text="firstname :"
+            android:textColor="#ff00ff00"
+            android:textSize="20sp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
         <TextView
             android:id="@+id/tv_firstname"
             android:text="FIRST NAME"
+            android:textColor="#ff00ff00"
+            android:textSize="20sp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
     </LinearLayout>
@@ -37,10 +45,14 @@
         android:layout_height="wrap_content">
         <TextView
             android:text="lastname :"
+            android:textColor="#ff0000ff"
+            android:textSize="25sp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
         <TextView
             android:id="@+id/tv_lastname"
+            android:textColor="#ff0000ff"
+            android:textSize="25sp"
             android:text="LAST NAME"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
